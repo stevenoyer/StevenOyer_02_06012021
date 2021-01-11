@@ -222,3 +222,86 @@ html, body {
 
 */
 
+#main #containerPage #hosting {
+    display: flex;
+}
+
+#main #containerPage #hostingCards {
+    display: flex;
+    flex-direction: column;
+    background: var(--background-color);
+    border-radius: 20px;
+    margin: 0 1rem 0 0;
+    padding: 2rem;
+}
+
+#main #containerPage #hosting #hostingCards .more {
+    font-size: 1.15em;
+    font-weight: 700;
+}
+
+#main #containerPage #hosting #containerHostingCards {
+    display: flex;
+    background: var(--background-color);
+    border-radius: 20px;
+    margin: 0 1rem 0 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#main #containerPage #hosting #containerHostingCards article {
+    background-color: white;
+    padding: 0.375rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 16px #0000002e;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    flex: 0 0 15rem;
+    margin: 1rem;
+}
+
+#main #containerPage #hosting #containerHostingCards article a {
+    padding: 0;
+}
+
+
+#main #containerPage #hosting #containerHostingCards .hostingCard figure img {
+    height: 7rem;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+#main #containerPage #hosting #containerHostingCards .hostingCard figure figcaption {
+    margin: 0 0.8rem;
+}
+
+#main #containerPage #hosting #containerHostingCards .hostingCard figure figcaption p {
+    font-size: 0.875em;
+    font-weight: 400;
+}
+
+#main #containerPage #hosting #containerHostingCards .hostingCard figure figcaption h4,p {
+    margin: 0.3rem 0;
+}
+
+#main #containerPage #hosting #containerHostingCards .hostingCard figure figcaption i {
+    color: var(--charte-color);
+    font-size: 0.775em;
+    margin-bottom: 0.5rem;
+}
+
+#main #containerPage #hosting #containerHostingCards .hostingCard figure figcaption .grey {
+    color: var(--background-color);
+}
+
+#main #containerPage #hosting #hostingPopular {
+    display: flex;
+    flex-direction: column;
+    background: var(--background-color);
+    border-radius: 20px;
+    margin: 0 0 0 1rem;
+    width: 27rem;
+}
