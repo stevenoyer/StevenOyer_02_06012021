@@ -233,6 +233,7 @@ html, body {
     border-radius: 20px;
     margin: 0 1rem 0 0;
     padding: 2rem;
+    width: 65%;
 }
 
 #main #containerPage #hosting #hostingCards .more {
@@ -294,7 +295,7 @@ html, body {
 }
 
 #main #containerPage #hosting #containerHostingCards .hostingCard figure figcaption .grey {
-    color: var(--background-color);
+    color: #d9d9d9;
 }
 
 #main #containerPage #hosting #hostingPopular {
@@ -304,4 +305,21 @@ html, body {
     border-radius: 20px;
     margin: 0 0 0 1rem;
     width: 27rem;
+    padding: 1rem;
+}
+
+#main #containerPage #hosting #hostingPopular #hostingPopularCards article {
+    background: #fff;
+    border-radius: 20px;
+}
+
+#main #containerPage #hosting #hostingPopular #hostingPopularCards article a figure {
+    display: flex;
+}
+
+#main #containerPage #hosting #hostingPopular #hostingPopularCards img {
+    border-radius: 1rem 0 0 1rem;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
 }
