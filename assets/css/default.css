@@ -94,10 +94,12 @@ html, body {
     margin: 0 0 1em 0;
 }
 
+#main #containerPage #search #form-search form {
+    display: flex;
+}
+
 #main #containerPage #search #form-search {
-    background-color: var(--background-color);
-    max-width: 100%;
-    display: inline-flex;
+    display: flex;
     margin: 0 0 2em 0;
     border-radius: 1rem;
 }
@@ -111,6 +113,7 @@ html, body {
 
 #main #containerPage #search #form-search .markerFormIcon {
     margin-left: 0.2rem;
+    font-size: 1.10rem;
 }
 
 #main #containerPage #search #form-search #input-search {
@@ -125,3 +128,97 @@ html, body {
     width: 14rem;
     outline: none;
 }
+
+#main #containerPage #search #form-search #btn-search {
+    height: 100%;
+    border-radius: 0 1rem 1rem 0;
+    border: none;
+    outline: none;
+    padding: 0 1.5rem;
+    background: var(--charte-color);
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.15rem;
+    cursor: pointer;
+}
+
+#main #containerPage #search #filters {
+    display: flex;
+}
+
+#main #containerPage #search #filters h3 {
+    margin: 0 2rem 1rem 0.5rem;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+#main #containerPage #search #filters #filtersList {
+    display: flex;
+    align-items: center;
+}
+
+#main #containerPage #search #filters #filtersList > * {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    border: 2px solid #d9d9d9;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    font-weight: bold;
+}
+
+#main #containerPage #search #filters #filtersList .filtersIcon {
+    background-color: var(--charte-color-light);
+    border-radius: 100%;
+    height: 2.5rem;
+    width: 2.5rem;
+    min-height: 3rem;
+    min-width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -2px;
+    color: var(--charte-color);
+    font-size: 1.15rem;
+}
+
+#main #containerPage #search #filters #filtersList .filterTitle {
+    display: flex;
+    align-items: center;
+    margin: 0 2rem 0 1rem;
+}
+
+#main #containerPage #search #notice {
+    display: flex;
+    align-items: center;
+    margin: 1.25rem 2rem 1rem 0.5rem;
+}
+
+#main #containerPage #search #notice #infoIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid #d9d9d9;
+    color: var(--charte-color);
+    font-size: 0.7em;
+}
+
+#main #containerPage #search #notice #noticeText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem;
+}
+
+/*
+
+    SECTION HOSTING
+
+*/
+
