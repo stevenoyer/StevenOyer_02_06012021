@@ -33,9 +33,6 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-#main header #logo {
     padding: 20px;
 }
 
@@ -69,4 +66,62 @@ html, body {
 #main header nav ul li a:hover {
     border-top: 3px var(--charte-color) solid;
     color: var(--charte-color);
+}
+
+/*
+
+    CONTAINER PAGE
+
+*/
+
+#main #containerPage {
+    padding: 20px;
+}
+
+/*
+
+    SECTION SEARCH
+
+*/
+
+#main #containerPage #search h1 {
+    font-size: 2em;
+    margin: 0 0 0.2em 0;
+    font-weight: 900;
+}
+
+#main #containerPage #search p {
+    margin: 0 0 1em 0;
+}
+
+#main #containerPage #search #form-search {
+    background-color: var(--background-color);
+    max-width: 100%;
+    display: inline-flex;
+    margin: 0 0 2em 0;
+    border-radius: 1rem;
+}
+
+#main #containerPage #search #form-search #markerForm {
+    background-color: var(--background-color);
+    padding: 1rem 1.25rem;
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
+}
+
+#main #containerPage #search #form-search .markerFormIcon {
+    margin-left: 0.2rem;
+}
+
+#main #containerPage #search #form-search #input-search {
+    padding: 1rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid var(--background-color);
+    border-bottom: 1px solid var(--background-color);
+    font-weight: bold;
+    width: 14rem;
+    outline: none;
 }
