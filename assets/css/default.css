@@ -194,7 +194,7 @@ html, body {
 #main #containerPage #search #notice {
     display: flex;
     align-items: center;
-    margin: 1.25rem 2rem 1rem 0.5rem;
+    margin: 1.25rem 2rem 1.5rem 0.5rem;
 }
 
 #main #containerPage #search #notice #infoIcons {
@@ -236,6 +236,10 @@ html, body {
     width: 65%;
 }
 
+#main #containerPage #hostingCards h1 {
+    margin: 1rem 0 1rem 1.5rem;
+}
+
 #main #containerPage #hosting #hostingCards .more {
     font-size: 1.15em;
     font-weight: 700;
@@ -245,7 +249,6 @@ html, body {
     display: flex;
     background: var(--background-color);
     border-radius: 20px;
-    margin: 0 1rem 0 0;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -308,18 +311,55 @@ html, body {
     padding: 1rem;
 }
 
+#main #containerPage #hosting #hostingPopular h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 1.5rem 0 1.5rem;
+}
+
 #main #containerPage #hosting #hostingPopular #hostingPopularCards article {
-    background: #fff;
-    border-radius: 20px;
+    background-color: #fff;
+    margin: 2rem 1rem;
+    padding: 0.375rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 1rem #0000002e;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+
+#main #containerPage #hosting #hostingPopular #hostingPopularCards article a {
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+    overflow: auto;
+    padding: 0;
 }
 
 #main #containerPage #hosting #hostingPopular #hostingPopularCards article a figure {
     display: flex;
 }
 
-#main #containerPage #hosting #hostingPopular #hostingPopularCards img {
-    border-radius: 1rem 0 0 1rem;
-    width: 50%;
-    height: 100%;
+#main #containerPage #hosting #hostingPopular #hostingPopularCards article a figure .hostingPopularCardImg img {
+    width: 8rem;
+    height: 8.5rem;
+    border-radius: 1rem 0px 0px 1rem;
     object-fit: cover;
 }
+
+#main #containerPage #hosting #hostingPopular #hostingPopularCards article a figure figcaption {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 0 1.5rem;
+}
+
+.light-text {
+    font-weight: 400;
+}
+
+/*
+
+    SECTION ACTIVITY
+
+*/
