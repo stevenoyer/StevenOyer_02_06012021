@@ -363,3 +363,80 @@ html, body {
     SECTION ACTIVITY
 
 */
+
+#main #activity {
+    margin: 3rem 0;
+    display: flex;
+}
+
+#main #activity #activityCards #containerActivityCards {
+    margin: 2rem 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#main #activity #activityCards #containerActivityCards article {
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s;
+}
+
+#main #activity #activityCards #containerActivityCards article a {
+    padding: 0;
+    margin: 0;
+}
+
+#main #activity #activityCards #containerActivityCards article a figure .activityCardImg {
+    position: relative;
+    flex: 1;
+}
+
+#main #activity #activityCards #containerActivityCards article a figure .activityCardImg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#main #activity #activityCards #containerActivityCards .containerTwoCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*
+
+    SECTION FOOTER
+
+*/
+
+footer {
+    background: var(--background-color);
+}
+
+footer #footer {
+    display: flex;
+    max-width: 100%;
+    width: 1440px;
+    margin: auto;
+    padding: 0 2rem;
+    line-height: 1.5rem;
+    font-weight: 200;
+}
+
+footer #footer #about, #hosts, #help {
+    width: 30%;
+    padding: 2rem 2rem;
+}
+
+footer #about a, #hosts a, #help a {
+    padding: 0;
+    margin: 0;
+}
+
+footer #about h3, #hosts h3, #help h3 {
+    margin-bottom: 1rem;
+}
