@@ -254,7 +254,7 @@ html, body {
 }
 
 #main #containerPage #hosting #containerHostingCards article {
-    background-color: white;
+    background-color: #fff;
     padding: 0.375rem;
     border-radius: 1.25rem;
     box-shadow: 0 0 16px #0000002e;
@@ -263,11 +263,6 @@ html, body {
     flex: 0 0 15rem;
     margin: 1rem;
 }
-
-#main #containerPage #hosting #containerHostingCards article a {
-    padding: 0;
-}
-
 
 #main #containerPage #hosting #containerHostingCards .hostingCard figure img {
     height: 7rem;
@@ -326,28 +321,22 @@ html, body {
     box-shadow: 0 0 1rem #0000002e;
     transition-duration: 0.1s;
     cursor: pointer;
-}
-
-#main #containerPage #hosting #hostingPopular #hostingPopularCards article a {
-    display: flex;
     align-items: stretch;
-    height: 100%;
     overflow: auto;
-    padding: 0;
 }
 
-#main #containerPage #hosting #hostingPopular #hostingPopularCards article a figure {
+#main #containerPage #hosting #hostingPopular #hostingPopularCards article figure {
     display: flex;
 }
 
-#main #containerPage #hosting #hostingPopular #hostingPopularCards article a figure .hostingPopularCardImg img {
+#main #containerPage #hosting #hostingPopular #hostingPopularCards article figure .hostingPopularCardImg img {
     width: 8rem;
     height: 8.5rem;
     border-radius: 1rem 0px 0px 1rem;
     object-fit: cover;
 }
 
-#main #containerPage #hosting #hostingPopular #hostingPopularCards article a figure figcaption {
+#main #containerPage #hosting #hostingPopular #hostingPopularCards article figure figcaption {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -372,39 +361,50 @@ html, body {
 #main #activity #activityCards #containerActivityCards {
     margin: 2rem 0 0 0;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
 }
 
 #main #activity #activityCards #containerActivityCards article {
-    box-shadow: 0 0 20px #0000002e;
+    background: #fff;
     border-radius: 1rem;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    transition: 0.2s;
+    box-shadow: 0 0 1rem #0000002e;
+    margin: 1rem;
 }
 
-#main #activity #activityCards #containerActivityCards article a {
-    padding: 0;
-    margin: 0;
-}
-
-#main #activity #activityCards #containerActivityCards article a figure .activityCardImg {
-    position: relative;
-    flex: 1;
-}
-
-#main #activity #activityCards #containerActivityCards article a figure .activityCardImg img {
-    height: 100%;
-    width: 100%;
+#main #activity #activityCards #containerActivityCards article .activityCardImg img {
+    width: 18rem;
+    height: 25rem;
     object-fit: cover;
+    overflow: hidden;
+    border-radius: 1rem 1rem 0 0;
+}
+
+#main #activity #activityCards #containerActivityCards article h4 {
+    align-items: center;
+    margin: 1rem;
 }
 
 #main #activity #activityCards #containerActivityCards .containerTwoCards {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+#main #activity #activityCards #containerActivityCards .containerTwoCards .activityCardImg-double img {
+    width: 20rem;
+    height: 10rem;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.small {
+    height: 8rem !important;
+}
+
+.normal {
+    height: 9.5rem !important;
 }
 
 /*
