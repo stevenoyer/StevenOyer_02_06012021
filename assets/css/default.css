@@ -292,7 +292,7 @@ html, body {
     margin-bottom: 0.5rem;
 }
 
-#main #containerPage #hosting #containerHostingCards .hostingCard figure figcaption .grey {
+.grey {
     color: #d9d9d9;
 }
 
@@ -341,6 +341,11 @@ html, body {
     justify-content: space-evenly;
     flex-direction: column;
     margin: 0 1.5rem;
+}
+
+#main #containerPage #hosting #hostingPopular #hostingPopularCards article figure figcaption .stars {
+    color: var(--charte-color);
+    font-size: 0.775em;
 }
 
 .light-text {
