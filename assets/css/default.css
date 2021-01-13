@@ -356,6 +356,7 @@ html, body {
 #main #activity {
     margin: 3rem 0;
     display: flex;
+    justify-content: center;
 }
 
 #main #activity #activityCards #containerActivityCards {
