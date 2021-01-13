@@ -370,11 +370,11 @@ html, body {
     background: #fff;
     border-radius: 1rem;
     box-shadow: 0 0 1rem #0000002e;
-    margin: 1rem;
+    margin: 0.935rem;
 }
 
 #main #activity #activityCards #containerActivityCards article .activityCardImg img {
-    width: 18rem;
+    width: 20rem;
     height: 25rem;
     object-fit: cover;
     overflow: hidden;
@@ -400,8 +400,12 @@ html, body {
     border-radius: 1rem 1rem 0 0;
 }
 
+.larger {
+    height: 11rem !important;
+}
+
 .small {
-    height: 8rem !important;
+    height: 7.5rem !important;
 }
 
 .normal {
