@@ -376,6 +376,7 @@ html, body {
     border-radius: 1rem;
     box-shadow: 0 0 1rem #0000002e;
     margin: 0.935rem;
+    cursor: pointer;
 }
 
 #main #activity #activityCards #containerActivityCards article .activityCardImg img {
