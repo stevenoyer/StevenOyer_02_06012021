@@ -168,6 +168,12 @@ html, body {
     cursor: pointer;
     transition-duration: 0.1s;
     font-weight: bold;
+    user-select: none;
+    transition: transform 200ms ease-in-out;
+}
+
+#main #containerPage #search #filters #filtersList > *:hover {
+    transform: scale(1.1);
 }
 
 #main #containerPage #search #filters #filtersList .filtersIcon {
@@ -262,6 +268,11 @@ html, body {
     cursor: pointer;
     flex: 0 0 15rem;
     margin: 1rem;
+    transition: transform 200ms ease-in-out;
+}
+
+#main #containerPage #hosting #containerHostingCards article:hover {
+    transform: scale(1.1);
 }
 
 #main #containerPage #hosting #containerHostingCards .hostingCard figure img {
@@ -323,6 +334,11 @@ html, body {
     cursor: pointer;
     align-items: stretch;
     overflow: auto;
+    transition: transform 200ms ease-in-out;
+}
+
+#main #containerPage #hosting #hostingPopular #hostingPopularCards article:hover {
+    transform: scale(1.1);
 }
 
 #main #containerPage #hosting #hostingPopular #hostingPopularCards article figure {
@@ -377,6 +393,11 @@ html, body {
     box-shadow: 0 0 1rem #0000002e;
     margin: 0.935rem;
     cursor: pointer;
+    transition: transform 200ms ease-in-out;
+}
+
+#main #activity #activityCards #containerActivityCards article:hover {
+    transform: scale(1.1);
 }
 
 #main #activity #activityCards #containerActivityCards article .activityCardImg img {
