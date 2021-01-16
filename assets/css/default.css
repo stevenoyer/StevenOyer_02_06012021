@@ -29,41 +29,51 @@ html, body {
 
 */
 
-#main header {
+#main header #Header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
 
-#main header nav ul {
+#main #HeaderMobile {
+    display: none;
+}
+
+#main header #Header nav ul {
     display: flex;
 }
 
-#main header nav ul,li {
+#main header #Header nav ul,li {
     list-style-type: none;
 }
 
-#main header nav ul li a, a:link, a:visited {
+#main header #Header nav ul li a, a:link, a:visited {
     text-decoration: none;
     color: #000;
     padding: 2rem;
     font-weight: 500;
 }
 
-#main header nav ul li .active, a:active {
+#main header #Header nav ul li .active, a:active {
     color: var(--charte-color);
     font-weight: 500;
     border-top: 3px var(--charte-color) solid;
 }
 
-#main header nav ul li .register, .register:hover {
+#main header #Header nav ul li .register, .register:hover {
     color: var(--charte-color);
     font-weight: 600;
     border: none !important;
 }
 
-#main header nav ul li a:hover {
+.register, .register:hover {
+    color: var(--charte-color);
+    font-weight: 600;
+    border: none !important;
+}
+
+#main header #Header nav ul li a:hover {
     border-top: 3px var(--charte-color) solid;
     color: var(--charte-color);
 }
@@ -129,7 +139,7 @@ html, body {
     outline: none;
 }
 
-#main #containerPage #search #form-search #btn-search {
+#main #containerPage #search #form-search .btn-search {
     height: 100%;
     border-radius: 0 1rem 1rem 0;
     border: none;
@@ -142,8 +152,13 @@ html, body {
     cursor: pointer;
 }
 
+.mobile-btn-search {
+    display: none;
+}
+
 #main #containerPage #search #filters {
     display: flex;
+    flex-wrap: wrap;
 }
 
 #main #containerPage #search #filters h3 {
@@ -156,6 +171,7 @@ html, body {
 #main #containerPage #search #filters #filtersList {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #main #containerPage #search #filters #filtersList > * {
@@ -240,6 +256,7 @@ html, body {
     margin: 0 1rem 0 0;
     padding: 2rem;
     width: 65%;
+    flex-wrap: wrap;
 }
 
 #main #containerPage #hostingCards h1 {
@@ -315,6 +332,7 @@ html, body {
     margin: 0 0 0 1rem;
     width: 27rem;
     padding: 1rem;
+    flex-wrap: wrap;
 }
 
 #main #containerPage #hosting #hostingPopular h1 {
@@ -471,4 +489,180 @@ footer #about a, #hosts a, #help a {
 
 footer #about h3, #hosts h3, #help h3 {
     margin-bottom: 1rem;
+}
+
+/*
+
+    MEDIA QUERIES
+
+*/
+
+@media screen and (max-width: 1199px) {
+    #main {
+        margin: auto;
+        width: 1199px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #main {
+        margin: auto;
+        width: 992px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #main {
+        margin: auto;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+    #main {
+        margin: auto;
+        width: 100%;
+    }
+
+    #main #containerPage {
+        padding: 2rem;
+    }
+
+    #main #containerPage #search h1 {
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+
+    #main header #Header {
+        display: none;
+    }
+
+    #main header #HeaderMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #main header #HeaderMobile #logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    #main header #HeaderMobile #logo .register, .register:hover {
+        color: var(--charte-color);
+        font-weight: 600;
+        border: none !important;
+    }
+
+    #main header #HeaderMobile nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    #main header #HeaderMobile nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #main header #HeaderMobile nav ul li {
+        list-style-type: none;
+        padding: 2.5rem;
+        border-bottom: 3px #d9d9d9 solid;
+    }
+    
+    #main header #HeaderMobile nav ul li:hover {
+        list-style-type: none;
+        padding: 2.5rem;
+        border-bottom: 3px var(--charte-color) solid;
+    }
+
+    #main header #HeaderMobile nav ul .active {
+        list-style-type: none;
+        padding: 2.5rem;
+        border-bottom: 3px var(--charte-color) solid;
+    }
+    
+    #main header #HeaderMobile nav ul li a, a:link, a:visited {
+        text-decoration: none;
+        color: #000;
+        padding: 2rem;
+        font-weight: 500;
+    }
+    
+    #main header #HeaderMobile nav ul li a:hover {
+        color: var(--charte-color);
+    }
+    
+    #main header #HeaderMobile nav ul li .active, a:active {
+        color: var(--charte-color);
+        font-weight: 500;
+        border-top: none;
+    }
+
+    .mobile-btn-search {
+        display: block;
+    }
+
+    .no-mobile-search-btn {
+        display: none;
+    }
+    
+    #main #containerPage #hosting {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #main #containerPage #hostingCards {
+        max-width: 100%;
+        margin: 0;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        order: 2;
+        margin: 2rem 0 0 0;
+        background: #fff;
+        width: 100%;
+    }
+
+    #main #containerPage #hosting #containerHostingCards {
+        background: #fff;
+    }
+
+    #main #containerPage #hosting #containerHostingCards {
+        margin: 0.5rem 0;
+    }
+
+    #main #containerPage #hosting #containerHostingCards article {
+        flex: 0 0 22rem;
+    }
+
+    #main #containerPage #hosting #hostingPopular {
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        order: 1;
+        align-items: unset;
+        margin: 0;
+        width: 100%;
+    }
+
+    #main #activity #activityCards #containerActivityCards {
+        justify-content: center;
+    }
+
+    footer #footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+    }
 }
