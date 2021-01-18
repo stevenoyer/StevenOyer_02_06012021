@@ -398,6 +398,10 @@ html, body {
     justify-content: center;
 }
 
+#main #activity #activityCards {
+    max-width: 100%;
+}
+
 #main #activity #activityCards #containerActivityCards {
     margin: 2rem 0 0 0;
     display: flex;
