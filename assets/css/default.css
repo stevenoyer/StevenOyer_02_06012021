@@ -599,6 +599,10 @@ footer #about h3, #hosts h3, #help h3 {
         flex-wrap: wrap;
     }
 
+    .containerTwoCardsLaptop {
+        display: flex !important;
+        flex-direction: row !important;
+    }
 
 }
 
@@ -669,6 +673,11 @@ footer #about h3, #hosts h3, #help h3 {
         object-fit: cover;
         overflow: hidden;
         border-radius: 1rem 1rem 0 0;
+    }
+
+    .containerTwoCardsLaptop {
+        display: flex !important;
+        flex-direction: column !important;
     }
 }
 
