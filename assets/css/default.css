@@ -760,7 +760,7 @@ footer #about h3, #hosts h3, #help h3 {
     }
 
     #main header {
-        width: 98%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -806,19 +806,19 @@ footer #about h3, #hosts h3, #help h3 {
     
     #main header #HeaderMobile nav ul li {
         list-style-type: none;
-        padding: 2.5rem;
+        padding: 2rem;
         border-bottom: 3px #d9d9d9 solid;
     }
     
     #main header #HeaderMobile nav ul li:hover {
         list-style-type: none;
-        padding: 2.5rem;
+        padding: 2rem;
         border-bottom: 3px var(--charte-color) solid;
     }
 
     #main header #HeaderMobile nav ul .active {
         list-style-type: none;
-        padding: 2.5rem;
+        padding: 2rem;
         border-bottom: 3px var(--charte-color) solid;
     }
     
