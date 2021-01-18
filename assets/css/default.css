@@ -401,7 +401,7 @@ html, body {
 #main #activity #activityCards #containerActivityCards {
     margin: 2rem 0 0 0;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
     justify-content: space-between;
 }
 
@@ -496,6 +496,17 @@ footer #about h3, #hosts h3, #help h3 {
     MEDIA QUERIES
 
 */
+
+@media screen and (max-width: 1440px) {
+    #main {
+        margin: auto;
+        width: 100%;
+    }
+
+    #footer {
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 1199px) {
     #main {
