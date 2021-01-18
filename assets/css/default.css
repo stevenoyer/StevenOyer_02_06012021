@@ -254,13 +254,13 @@ html, body {
     background: var(--background-color);
     border-radius: 20px;
     margin: 0 1rem 0 0;
-    padding: 2rem;
+    padding: 1rem;
     width: 65%;
     flex-wrap: wrap;
 }
 
 #main #containerPage #hostingCards h1 {
-    margin: 1rem 0 1rem 1.5rem;
+    margin: 2rem 1.5rem 1.5rem 1.5rem;
 }
 
 #main #containerPage #hosting #hostingCards .more {
@@ -509,6 +509,10 @@ footer #about h3, #hosts h3, #help h3 {
 
     #footer {
         width: 100%;
+    }
+
+    #main #containerPage #hosting #containerHostingCards article {
+        margin: 0.4rem;
     }
 
     #main #activity #activityCards #containerActivityCards article {
