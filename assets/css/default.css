@@ -516,6 +516,25 @@ footer #about h3, #hosts h3, #help h3 {
     }
 }
 
+@media screen and (max-width: 1366px) {
+    #main {
+        margin: auto;
+        width: 100%;
+    }
+
+    #footer {
+        width: 100%;
+    }
+
+    #main #activity #activityCards #containerActivityCards article {
+        margin: 0.3rem;
+    }
+    
+    #main #activity #activityCards #containerActivityCards {
+        flex-wrap: wrap;
+    }
+}
+
 @media screen and (max-width: 1199px) {
     #main {
         margin: auto;
