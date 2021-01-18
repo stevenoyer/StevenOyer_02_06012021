@@ -566,13 +566,13 @@ footer #about h3, #hosts h3, #help h3 {
         margin: 2rem 0 0 0;
         width: 100%;
     }
-    
+
     #main #containerPage #hosting #containerHostingCards {
         margin: 0.5rem 0;
     }
 
     #main #containerPage #hosting #containerHostingCards article {
-        flex: 0 0 22rem;
+        flex: 0 0 16rem;
     }
 
     #main #containerPage #hosting #hostingPopular {
