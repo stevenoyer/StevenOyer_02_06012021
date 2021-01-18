@@ -20,7 +20,7 @@ html, body {
 
 #main {
     margin: auto;
-    width: 1440px;
+    width: 100%;
 }
 
 /*
@@ -470,7 +470,7 @@ footer {
 footer #footer {
     display: flex;
     max-width: 100%;
-    width: 1440px;
+    width: 100%;
     margin: auto;
     padding: 0 2rem;
     line-height: 1.5rem;
@@ -497,7 +497,7 @@ footer #about h3, #hosts h3, #help h3 {
 
 */
 
-@media screen and (max-width: 1366) {
+@media screen and (max-width: 1199px) {
     #main {
         margin: auto;
         width: 100%;
