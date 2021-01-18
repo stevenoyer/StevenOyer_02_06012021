@@ -759,6 +759,13 @@ footer #about h3, #hosts h3, #help h3 {
         font-weight: 700;
     }
 
+    #main header {
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     #main header #Header {
         display: none;
     }
@@ -770,7 +777,7 @@ footer #about h3, #hosts h3, #help h3 {
         align-items: center;
         flex-direction: column;
         padding: 10px;
-        width: 95%;
+        width: 100%;
         max-width: 100%;
     }
 
@@ -778,7 +785,7 @@ footer #about h3, #hosts h3, #help h3 {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 100%;
+        width: 90%;
     }
 
     #main header #HeaderMobile #logo .register, .register:hover {
