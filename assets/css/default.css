@@ -527,7 +527,15 @@ footer #about h3, #hosts h3, #help h3 {
     }
     
     #main #activity #activityCards #containerActivityCards {
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+    }
+
+    #main #activity #activityCards #containerActivityCards article .activityCardImg img {
+        width: 16rem;
+        height: 22rem;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 1rem 1rem 0 0;
     }
 }
 
@@ -537,9 +545,61 @@ footer #about h3, #hosts h3, #help h3 {
         width: 100%;
     }
 
-    #footer {
+    #main #containerPage #hosting {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #main #containerPage #hostingCards {
+        max-width: 100%;
+        margin: 0;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        order: 2;
+        margin: 2rem 0 0 0;
         width: 100%;
     }
+
+    #main #containerPage #hosting #containerHostingCards {
+        margin: 0.5rem 0;
+    }
+
+    #main #containerPage #hosting #containerHostingCards article {
+        flex: 0 0 16rem;
+    }
+
+    #main #containerPage #hosting #hostingPopular {
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        order: 1;
+        align-items: unset;
+        margin: 0;
+        width: 100%;
+    }
+
+    #main #containerPage #hosting #hostingPopular #hostingPopularCards {
+        display: flex;
+    }
+
+    #main #containerPage #hosting #hostingPopular #hostingPopularCards article {
+        width: 100%;
+    }
+
+    #main #containerPage #hosting #hostingPopular #hostingPopularCards article figure figcaption h3 {
+        font-size: 1em;
+    }
+
+    #main #activity #activityCards #containerActivityCards {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
 }
 
 @media screen and (max-width: 992px) {
@@ -585,8 +645,30 @@ footer #about h3, #hosts h3, #help h3 {
         width: 100%;
     }
 
+    #main #containerPage #hosting #hostingPopular #hostingPopularCards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #main #containerPage #hosting #hostingPopular #hostingPopularCards article {
+        width: auto;
+    }
+
+    #main #containerPage #hosting #hostingPopular #hostingPopularCards article figure figcaption h3 {
+        font-size: 1.17em;
+    }
+
     #main #activity #activityCards #containerActivityCards {
         justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #main #activity #activityCards #containerActivityCards article .activityCardImg img {
+        width: 20rem;
+        height: 25rem;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 1rem 1rem 0 0;
     }
 }
 
@@ -636,6 +718,15 @@ footer #about h3, #hosts h3, #help h3 {
 
     #main #activity #activityCards #containerActivityCards {
         justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #main #activity #activityCards #containerActivityCards article .activityCardImg img {
+        width: 20rem;
+        height: 25rem;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 1rem 1rem 0 0;
     }
 
 }
