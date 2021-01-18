@@ -500,20 +500,32 @@ footer #about h3, #hosts h3, #help h3 {
 @media screen and (max-width: 1199px) {
     #main {
         margin: auto;
-        width: 1199px;
+        width: 100%;
+    }
+
+    #footer {
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 992px) {
     #main {
         margin: auto;
-        width: 992px;
+        width: 100%;
+    }
+
+    #footer {
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
     #main {
         margin: auto;
+        width: 100%;
+    }
+
+    #footer {
         width: 100%;
     }
 
