@@ -470,7 +470,7 @@ footer {
 footer #footer {
     display: flex;
     max-width: 100%;
-    width: 100%;
+    width: auto;
     margin: auto;
     padding: 0 2rem;
     line-height: 1.5rem;
