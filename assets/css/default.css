@@ -511,6 +511,10 @@ footer #about h3, #hosts h3, #help h3 {
     #footer {
         width: 100%;
     }
+
+    #main #activity #activityCards #containerActivityCards article {
+        margin: 0.3rem;
+    }
 }
 
 @media screen and (max-width: 1199px) {
