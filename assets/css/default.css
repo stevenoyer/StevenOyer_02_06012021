@@ -564,14 +564,9 @@ footer #about h3, #hosts h3, #help h3 {
         align-items: center;
         order: 2;
         margin: 2rem 0 0 0;
-        background: #fff;
         width: 100%;
     }
-
-    #main #containerPage #hosting #containerHostingCards {
-        background: #fff;
-    }
-
+    
     #main #containerPage #hosting #containerHostingCards {
         margin: 0.5rem 0;
     }
@@ -618,12 +613,7 @@ footer #about h3, #hosts h3, #help h3 {
         align-items: center;
         order: 2;
         margin: 2rem 0 0 0;
-        background: #fff;
         width: 100%;
-    }
-
-    #main #containerPage #hosting #containerHostingCards {
-        background: #fff;
     }
 
     #main #containerPage #hosting #containerHostingCards {
