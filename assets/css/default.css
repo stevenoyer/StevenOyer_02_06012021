@@ -631,7 +631,7 @@ footer #about h3, #hosts h3, #help h3 {
     }
 
     #main #containerPage #hosting #containerHostingCards article {
-        flex: 0 0 22rem;
+        flex: 0 0 20rem;
     }
 
     #main #containerPage #hosting #hostingPopular {
