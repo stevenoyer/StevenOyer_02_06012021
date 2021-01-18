@@ -512,7 +512,7 @@ footer #about h3, #hosts h3, #help h3 {
     }
 
     #main #containerPage #hosting #containerHostingCards article {
-        margin: 0.4rem;
+        margin: 1rem;
     }
 
     #main #activity #activityCards #containerActivityCards article {
