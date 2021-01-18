@@ -554,6 +554,68 @@ footer #about h3, #hosts h3, #help h3 {
 }
 
 @media screen and (max-width: 768px) {
+
+    #main {
+        margin: auto;
+        width: 100%;
+    }
+
+    #main #containerPage #hosting {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #main #containerPage #hostingCards {
+        max-width: 100%;
+        margin: 0;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        order: 2;
+        margin: 2rem 0 0 0;
+        background: #fff;
+        width: 100%;
+    }
+
+    #main #containerPage #hosting #containerHostingCards {
+        background: #fff;
+    }
+
+    #main #containerPage #hosting #containerHostingCards {
+        margin: 0.5rem 0;
+    }
+
+    #main #containerPage #hosting #containerHostingCards article {
+        flex: 0 0 22rem;
+    }
+
+    #main #containerPage #hosting #hostingPopular {
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        order: 1;
+        align-items: unset;
+        margin: 0;
+        width: 100%;
+    }
+
+    #main #activity #activityCards #containerActivityCards {
+        justify-content: center;
+    }
+
+    footer #footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
     #main {
         margin: auto;
         width: 100%;
