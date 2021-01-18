@@ -525,10 +525,6 @@ footer #about h3, #hosts h3, #help h3 {
     #footer {
         width: 100%;
     }
-
-    #main #activity #activityCards #containerActivityCards article {
-        margin: 0.3rem;
-    }
     
     #main #activity #activityCards #containerActivityCards {
         flex-wrap: wrap;
