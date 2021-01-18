@@ -516,7 +516,7 @@ footer #about h3, #hosts h3, #help h3 {
     }
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1365px) {
     #main {
         margin: auto;
         width: 100%;
