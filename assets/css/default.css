@@ -363,6 +363,10 @@ html, body {
     display: flex;
 }
 
+#main #containerPage #hosting #hostingPopular #hostingPopularCards article figure .hostingPopularCardImg {
+    display: flex;
+}
+
 #main #containerPage #hosting #hostingPopular #hostingPopularCards article figure .hostingPopularCardImg img {
     width: 8rem;
     height: 8.5rem;
@@ -469,12 +473,13 @@ html, body {
 
 footer {
     background: var(--background-color);
+    display: flex;
 }
 
 footer #footer {
     display: flex;
     max-width: 100%;
-    width: auto;
+    width: 1440px;
     margin: auto;
     padding: 0 2rem;
     line-height: 1.5rem;
@@ -508,7 +513,7 @@ footer #about h3, #hosts h3, #help h3 {
     }
 
     #footer {
-        width: 100%;
+        width: 100% !important;
     }
 
     #main #containerPage #hosting #containerHostingCards article {
@@ -517,6 +522,10 @@ footer #about h3, #hosts h3, #help h3 {
 
     #main #activity #activityCards #containerActivityCards article {
         margin: 0.3rem;
+    }
+
+    #footer {
+        width: auto !important;
     }
 }
 
@@ -527,7 +536,7 @@ footer #about h3, #hosts h3, #help h3 {
     }
 
     #footer {
-        width: 100%;
+        width: auto !important;
     }
     
     #main #activity #activityCards #containerActivityCards {
@@ -540,6 +549,10 @@ footer #about h3, #hosts h3, #help h3 {
         object-fit: cover;
         overflow: hidden;
         border-radius: 1rem 1rem 0 0;
+    }
+
+    #footer {
+        width: auto !important;
     }
 }
 
@@ -606,6 +619,10 @@ footer #about h3, #hosts h3, #help h3 {
     .containerTwoCardsLaptop {
         display: flex !important;
         flex-direction: row !important;
+    }
+
+    #footer {
+        width: auto !important;
     }
 
 }
@@ -683,6 +700,10 @@ footer #about h3, #hosts h3, #help h3 {
         display: flex !important;
         flex-direction: column !important;
     }
+
+    #footer {
+        width: auto !important;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -740,6 +761,10 @@ footer #about h3, #hosts h3, #help h3 {
         object-fit: cover;
         overflow: hidden;
         border-radius: 1rem 1rem 0 0;
+    }
+
+    #footer {
+        width: auto !important;
     }
 
 }
