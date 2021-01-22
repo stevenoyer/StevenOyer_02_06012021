@@ -33,11 +33,13 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 1.25rem 1rem;
 }
 
-#main #HeaderMobile {
-    display: none;
+#main header #Header .register, .register:hover {
+    color: var(--charte-color);
+    font-weight: 600;
+    border: none !important;
 }
 
 #main header #Header nav ul {
@@ -67,15 +69,18 @@ html, body {
     border: none !important;
 }
 
-.register, .register:hover {
+#main header #Header nav ul li a:hover {
+    border-top: 3px var(--charte-color) solid;
     color: var(--charte-color);
-    font-weight: 600;
-    border: none !important;
 }
 
 #main header #Header nav ul li a:hover {
     border-top: 3px var(--charte-color) solid;
     color: var(--charte-color);
+}
+
+.register-mobile {
+    display: none;
 }
 
 /*
@@ -792,10 +797,6 @@ footer #about h3, #hosts h3, #help h3 {
     }
 
     #main header #Header {
-        display: none;
-    }
-
-    #main header #HeaderMobile {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -806,59 +807,74 @@ footer #about h3, #hosts h3, #help h3 {
         max-width: 100%;
     }
 
-    #main header #HeaderMobile #logo {
+    .resgister-desktop {
+        display: none;
+    }
+
+    #main header #Header .logo {
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 90%;
     }
 
-    #main header #HeaderMobile #logo .register, .register:hover {
+    .register-mobile {
+        display: flex;
+    }
+
+    #main header #Header .logo .register, .register:hover {
         color: var(--charte-color);
         font-weight: 600;
         border: none !important;
     }
 
-    #main header #HeaderMobile nav {
+    #main header #Header nav {
         width: 100%;
         text-align: center;
     }
 
-    #main header #HeaderMobile nav ul {
+    #main header #Header nav ul {
         display: flex;
         justify-content: space-around;
     }
     
-    #main header #HeaderMobile nav ul li {
+    #main header #Header nav ul li {
         list-style-type: none;
         padding: 2rem;
         border-bottom: 3px #d9d9d9 solid;
+        width: 100%;
+    }
+
+    #main header #Header nav ul li .active-link {
+        color: var(--charte-color);
     }
     
-    #main header #HeaderMobile nav ul li:hover {
+    #main header #Header nav ul li:hover {
         list-style-type: none;
         padding: 2rem;
         border-bottom: 3px var(--charte-color) solid;
     }
 
-    #main header #HeaderMobile nav ul .active {
+    #main header #Header nav ul .active {
         list-style-type: none;
         padding: 2rem;
+        border-top: none;
         border-bottom: 3px var(--charte-color) solid;
     }
     
-    #main header #HeaderMobile nav ul li a, a:link, a:visited {
+    #main header #Header nav ul li a, a:link, a:visited {
         text-decoration: none;
         color: #000;
         padding: 2rem;
         font-weight: 500;
     }
     
-    #main header #HeaderMobile nav ul li a:hover {
+    #main header #Header nav ul li a:hover {
         color: var(--charte-color);
+        border-top: none;
     }
     
-    #main header #HeaderMobile nav ul li .active, a:active {
+    #main header #Header nav ul li .active, a:active {
         color: var(--charte-color);
         font-weight: 500;
         border-top: none;
@@ -916,6 +932,22 @@ footer #about h3, #hosts h3, #help h3 {
 
     #main #activity #activityCards #containerActivityCards {
         justify-content: center;
+    }
+
+    #main #activity #activityCards #containerActivityCards article {
+        margin: 1rem;
+    }
+
+    #main #activity #activityCards #containerActivityCards article .activityCardImg img, .containerTwoCards .activityCardImgCard-double img {
+        width: 20rem;
+        height: 11rem;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .small {
+        height: 11rem !important;
     }
 
     footer #footer {
