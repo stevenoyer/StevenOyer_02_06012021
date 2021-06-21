@@ -7,6 +7,8 @@ Ce projet a pour but de transformer une maquette en un site prototype en utilisa
 - Css
 - Git et GitHub
 
+Accès au projet [Reservia](https://reservia.stevenoyer.fr/)
+
 ## Cours appliqués 
 - [Mettez en place votre environnement front-end](https://openclassrooms.com/fr/courses/6943241-mettez-en-place-votre-environnement-front-end)
 - [Apprenez à utiliser la ligne de commande dans un terminal](https://openclassrooms.com/fr/courses/6173491-apprenez-a-utiliser-la-ligne-de-commande-dans-un-terminal)
