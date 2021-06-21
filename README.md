@@ -4,7 +4,7 @@ Reservia, un site pour trouver des hébergements pour des vacances.
 ## Projet
 Ce projet a pour but de transformer une maquette en un site prototype en utilisant
 - Html
-- Css
+- CSS
 - Git et GitHub
 
 Accès au projet [Reservia](https://reservia.stevenoyer.fr/)
